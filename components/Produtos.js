@@ -5,6 +5,10 @@ export default function Produto() {
     return (
         <View style={styles.container}>
             <Text>Produto Screen</Text>
+            <Button
+                title="Ir para Home"
+                onPress={() => navigation.navigate('Home')}
+            />
         </View>
     );
 }
